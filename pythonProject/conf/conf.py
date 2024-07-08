@@ -9,6 +9,15 @@ test_city_valid_data = ['Новосибирск', 'Moscow', 'Юрга', 'Кем�
 test_city_invalid_data = ['-1', 'New York', 'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch', 'Å']
 test_valid_query = ['No spicy please', 'Сан Сити', 'НГТУ', 'Речной вокзал']
 
+query_params = ['locale', 'q', 'type', 'fields', 'search_type', 'search_is_query_text_complete',
+                'search_nearby', 'search_input_method', 'sort', 'location', 'lon', 'lat', 'point',
+                'radius', 'district_id', 'building_id', 'city_id', 'subway', 'point1', 'point2',
+                'polygon', 'viewpoint1', 'viewpoint2', 'region_id', 'page', 'page_size', 'rubric_id',
+                'org_id', 'has_photos', 'has_rating', 'has_reviews', 'has_site', 'work_time']
+
+
+city_ids = ['141360258613345', '70030076138465544', '4504222397630173', '704310212034621', '70030076174472031']
+
 test_city_valid_json_responce = {'Новосибирск': [{
                                                 "full_name": "Новосибирск",
                                                 "id": "141360258613345",
