@@ -1,12 +1,7 @@
-import json
-
-import pytest
-import requests
-
-from conf.conf import BASE_URL_3_0, KEY, test_city_valid_data, test_city_invalid_data, test_city_valid_json_responce
-from conf.conf import test_valid_query
+from routeAPI.conf.conf import test_city_valid_data, test_city_invalid_data, test_city_valid_json_responce
+from routeAPI.conf.conf import test_valid_query
 from classMethods.Get import Get_query_Responce
-from conf.conftest import get_test_time
+from routeAPI.conf.conftest import get_test_time
 
 
 
